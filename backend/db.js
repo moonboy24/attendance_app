@@ -7,6 +7,7 @@ const DB_PASS = process.env.DB_PASS;
 const DB_NAME = process.env.DB_NAME;
 
 const db = mysql.createPool({
+  uri: "mysql://root:IcDiclFDHuHCaZhPXjgHIuLtFTyXkYWI@mysql.railway.internal:3306/railway",
   host: "sql208.infinityfree.com",
   user: "if0_39925465",
   password: "Benzenten99",
